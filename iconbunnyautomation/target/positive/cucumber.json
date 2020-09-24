@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 160,
+        "name": "Login IconBunny",
+        "description": "",
+        "id": "signup/login-to-iconbunny;login-iconbunny;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14046594400,
+              "status": "passed"
+            },
+            "line": 152,
+            "name": "I am on IconBunny Home page",
+            "match": {
+              "location": "loginStep.iAmOnIconBunnyHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3332615100,
+              "status": "passed"
+            },
+            "line": 153,
+            "name": "I Click Login my account",
+            "match": {
+              "location": "dashboardSteps.iClickLoginMyAccount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4300868100,
+              "status": "passed"
+            },
+            "line": 154,
+            "name": "I Enter  \"SQASaqlain@ymail.com\" and \"Haider_123\" credentials",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SQASaqlain@ymail.com",
+                  "offset": 10
+                },
+                {
+                  "val": "Haider_123",
+                  "offset": 37
+                }
+              ],
+              "location": "dashboardSteps.iEnterAndCredentials(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10698555500,
+              "status": "passed"
+            },
+            "line": 155,
+            "name": "I Close Flyer",
+            "match": {
+              "location": "dashboardSteps.iCloseFlyer()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16496143100,
+              "status": "passed"
+            },
+            "line": 156,
+            "name": "I Click to go to my address book",
+            "match": {
+              "location": "dashboardSteps.iClickToGoToMyAddressBook()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1319029100,
+              "status": "passed"
+            },
+            "line": 157,
+            "name": "I logout",
+            "match": {
+              "location": "loginStep.iLogout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 150,
+            "name": "@AddressBook"
+          }
+        ]
+      }
+    ],
+    "name": "Signup/Login to IconBunny",
+    "description": "",
+    "id": "signup/login-to-iconbunny",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]

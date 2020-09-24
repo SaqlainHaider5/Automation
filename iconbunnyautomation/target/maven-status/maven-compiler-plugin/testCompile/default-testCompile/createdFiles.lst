@@ -1,0 +1,5 @@
+steps\dashboardSteps.class
+steps\loginStep.class
+pages\DashboardPage.class
+pages\loginPage.class
+runners\CucumberRunner.class
